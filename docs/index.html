@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <title>Rishi's Page</title>
+    <script src="script.js" async></script>
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
@@ -22,6 +23,13 @@
         for more information about it.
       </p>
       <img src="https://www.nasa.gov/sites/default/files/thumbnails/image/cmasaw1_20221120192424.jpg" alt="Orion approaching the moon" width="600">
+    </div>
+    <div class="backgroundColor">
+      <br><label>Please specify an RGB value to change the background color to:</label>
+      <input type="text" id="rgbColor" placeholder="rgb(#, #, #)">
+      <button type="submit" id="backgroundColorSubmit">Submit</button>
+      <br><br>
+      <button type="submit" id="resetBackgroundColor">Reset Background Color</button>
     </div>
   </body>
 </html>
